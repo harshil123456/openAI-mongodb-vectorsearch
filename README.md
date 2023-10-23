@@ -47,21 +47,27 @@ Sample for project which is explain avout the use of mongodb with openAI and vec
 
 - Step 2: Understand the file and create the search index in mongodb.
     1: Following is the architecture of the project.
+
      - ![Alt text](/Readme-images/ai-image-8.png)
+
     2: In readlogic.js file there is a mongoconnection string. How to get that.
         - Go to you account and follow this steps.
         - When you set you account first time it will ask for password. You can choose you own or accept the system generated password. Use that password in connection string.
         - Use this connection string into the JS files.
+        
         - ![Alt text](/Readme-images/ai-image-9.png)
+
     3: Let's create a search index in the MongoDB
         - Click on cluster0
         - Click on seach and create index.
         - click "JSON Editor" option
-        - Follow the screenshot for the json object. Give the appropiate name of the index. (We will use the search index name in the searchlogic.js file at line no. 25)
+        - Follow the screenshot for the json object. Give the appropiate name of the index. (We will use the search index name in the searchlogic.js file at line no. 25).
+
         - ![Alt text](/Readme-images/ai-image-10.png)
         - ![Alt text](/Readme-images/ai-image-11.png)
         - ![Alt text](/Readme-images/ai-image-12.png)
         - ![Alt text](/Readme-images/ai-image-13.png)
+
         - sample json format
         ```json
         {

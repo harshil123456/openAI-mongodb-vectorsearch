@@ -5,4 +5,4 @@ Sample for project which is explain avout the use of mongodb with openAI and vec
 - Link https://platform.openai.com/
 - Go to this link and register for you self to ge the API key for getting embedding. ( Embedding is needed for the vector search)
 
-![Alt text](image.png)
+![Alt text](/Readme-images/image.png)

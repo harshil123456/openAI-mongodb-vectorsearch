@@ -1,0 +1,29 @@
+{
+    "name": "OpenAIProject",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon --exec babel-node server/app.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.21.8",
+        "@babel/node": "^7.20.7",
+        "@babel/preset-env": "^7.21.5",
+        "axios": "^1.4.0",
+        "body-parser": "^1.20.2",
+        "cheerio": "^1.0.0-rc.12",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "fs": "0.0.1-security",
+        "mongodb": "^5.5.0",
+        "node-schedule": "^2.1.1",
+        "nodemon": "^2.0.22",
+        "npm": "^9.7.2",
+        "pa11y": "^6.2.3",
+        "start": "^5.1.0",
+        "underscore": "^1.13.6"
+    },
+    "devDependencies": {
+        "puppeteer": "^19.11.1"
+    }
+}
